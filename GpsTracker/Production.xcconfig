@@ -1,0 +1,32 @@
+// Configuration file for GpsTracker app
+// Contains build settings and environment-specific configuration
+//
+// USAGE:
+// 1. This file should be selected in Project settings for the appropriate configuration
+// 2. To add a new setting, follow the existing format: NAME = VALUE
+// 3. For URLs, only include the hostname (without https://) to avoid parsing issues
+// 4. To reference these values in Info.plist, use $(VARIABLE_NAME) format
+// 5. To access in code:
+//    Bundle.main.infoDictionary?["InfoPlistKeyName"] as? String
+//
+// IMPORTANT:
+// - Do NOT commit API secrets or sensitive values to version control
+// - Create a template version of this file with placeholder values
+// - Each developer should maintain their own local copy with real values
+//
+// Last updated: May 18, 2025
+//
+
+// App identity
+PRODUCT_NAME = GpsTracker
+PRODUCT_BUNDLE_IDENTIFIER = com.teemusk.sandbox
+APP_DISPLAY_NAME = Stracker
+MARKETING_VERSION = 0.0.1
+CURRENT_PROJECT_VERSION = 1
+
+// App icon
+ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon-Production
+
+// API configuration
+API_BASE_URL = demo-api.invendor.com
+API_SECRET = API_SECRET_HERE
