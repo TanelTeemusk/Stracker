@@ -39,7 +39,10 @@ API_SECRET = YOUR_API_SECRET_HERE
 ```
 6. Build and run the project (⌘+R)
 
-> Also note that there is also a Production file in the document tree. This includes app variables needed for production.
+> Also note that there is a Production file in the document tree. This includes app variables needed for production.
+
+> As a rule of thumb, don't commit Debug.xcconfig nor Production.xcconfig files to this repo as these will include sensitive information only you should know.
+
 > 💡 **Pro Tip**: If the app doesn't build, try cleaning the build folder (Shift+⌘+K) before building again. If issues persist, verify that your xcconfig files contain the correct API secret value. The xcconfig files are referenced in Xcode but live in the parent directory of the project, making them easy to edit directly in Xcode.
 
 
