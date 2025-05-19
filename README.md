@@ -29,7 +29,7 @@ I will not keep you posted if the tech company saw this app to be worthy enough 
 1. Clone the repo
 2. Navigate to the project directory
 3. Open `GpsTracker.xcodeproj` in Xcode
-4. Find and open the `Debug` file in Xcode and check it's contents
+4. Find and open the `Debug.xcconfig` file in Xcode and check it's contents
 5. Add your Api Secret instead of the text "YOUR_API_SECRET_HERE". Api secret is the long list of numbers shared with you by the production team. The correct line looks like this:
 ```
 API_SECRET = YOUR_API_SECRET_HERE
