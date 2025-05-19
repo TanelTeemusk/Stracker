@@ -26,10 +26,7 @@ I will not keep you posted if the tech company saw this app to be worthy enough 
 
 ## Installation
 
-1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/SecretTracker.git
-```
+1. Clone the repo
 2. Navigate to the project directory
 3. Open `GpsTracker.xcodeproj` in Xcode
 4. Find and open the `Debug` file in Xcode and check it's contents
